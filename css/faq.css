@@ -1,0 +1,90 @@
+/** DS Slider CSS **/
+#showhide {
+	width: 60px;
+	height: 22px;	
+	float: right;
+	cursor: pointer;
+	margin-right: 17px;
+}
+
+#showhide.on {
+	background:	url(https://www.business.hsbc.co.uk/1/PA_1_1_S5/content/images/faq/btnShowAllRed.gif);
+}
+
+#showhide.off {
+	background:	url(https://www.business.hsbc.co.uk/1/PA_1_1_S5/content/images/faq/btnHideAllRed.gif);
+}
+
+.grid .faqRow h3 {
+	font-size: 112.5%;
+	margin-bottom: 20px;
+}
+
+#grid .grid .faqRow p {
+	font-size: 87.5%;
+	margin-bottom: 10px;
+}
+
+#grid .faqRow .sliderHead, #grid .faqRow .sliderContent, #grid .faqRow .sliderWrap {
+	width:750px;
+	display: inline-block;
+	height:auto;	
+}
+
+#grid .faqRow .sliderHead {
+	width: 730px;
+	padding-left: 30px;	
+}
+
+#grid .faqRow .sliderWrap {
+	background:#fff url('../img/content/faq_background.gif') repeat-x bottom left;
+	margin-top: 5px;
+	border-left: 1px solid #D2D2D2;
+	border-right: 1px solid #D2D2D2;
+	border-top: 1px solid #D2D2D2;
+}
+
+#grid .faqRow .sliderContent {
+	display: none;	
+}
+
+#grid .faqRow .sliderContent p {
+	padding:5px 10px 10px 10px;
+	margin:0;
+	clear:both;
+}
+
+#grid .faqRow .sliderContent a {
+	text-decoration: underline !important;
+}
+
+#grid .faqRow .sliderContent a:hover {
+	color: red;	
+}
+
+#grid .faqRow .sliderHead h3 {
+	cursor: pointer;
+	padding:8px 10px 8px 0;
+	margin:0;
+	font-size: 75%;
+	font-family:Arial,Helvetica,sans-serif;
+	font-weight:bold;
+}
+
+#grid .faqRow .sliderHead.opened {
+	background: url('../img/content/faq_close.gif') 5px center no-repeat;	
+}
+
+#grid .faqRow .sliderHead.closed {
+	background: url('../img/content/faq_open.gif') 5px center no-repeat;	
+}
+
+#grid .faqRow .sliderHead h3:hover {
+	color:#DB0011;
+}
+
+#grid .faqRow .sliderHead {
+	cursor: pointer;
+}
+
+/** DS Slider CSS END **/

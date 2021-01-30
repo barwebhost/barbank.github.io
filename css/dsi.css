@@ -1,0 +1,485 @@
+#grid .grid .red {
+	color: red;
+}
+
+#grid .grid .contactRow .column {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    padding: 0 18px 0 40px;
+    width: 220px;
+}
+
+#grid .grid .contactUsRow .inner .column p span.small {
+    color: #333333;
+    font-size: 71.43%;
+    line-height: 18px;
+    margin: 1px 0 0;
+}
+
+#grid .grid .contactUsRow .inner .column p span.big {
+    color: #000000;
+    font-size: 171.43%;
+    line-height: 30px;
+    margin: 3px 0 0;
+}
+
+#grid .grid .contactUsRow .inner .column p a {
+	text-decoration: underline;	
+}
+
+#grid .grid .contactUsRow .inner .column p a:hover {
+	color: #FF0000;	
+}
+/***************************************************************************************************************/
+/** international features table **/
+#grid .bigTable table {
+    margin: 0;
+    position: relative;
+    width: 940px;
+}
+
+.bigTable table th, .bigTable table td {
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 9px 20px;
+}
+
+.bigTable table thead tr th {
+    background-color: #DBDCDD;
+    color: #000000;
+    font-size: 85%;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 8px 20px;
+    text-align: center;    
+}
+
+.bigTable table thead tr th.first {
+    font-size: 85%;
+    font-weight: bold;
+    text-align: left;
+    width: 180px;
+}
+
+.bigTable table tbody tr th {
+	background-color: #F0F0F0;
+    color: #000000;
+    font-size: 80%;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 8px 20px;
+}
+
+.bigTable table tbody tr.odd th {
+	background-color: #E4E4E4;
+}
+
+.bigTable table tbody tr td {
+	background-color: #F0F0F0;
+    color: #4C4C4C;
+    font-size: 80%;
+    font-weight: normal;
+	line-height: 20px;
+	padding-top: 10px;
+}
+
+.bigTable table tbody tr td .tick {
+	display: block;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    margin-left: 40px;
+	background: url("../img/content/included.gif") no-repeat scroll left top transparent;
+}
+
+.bigTable table tbody tr td .cross {
+	display: block;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    margin-left: 40px;
+	background: url("../img/content/not_included_light.gif") no-repeat scroll left top transparent;
+}
+
+.bigTable table tbody tr.odd td {
+	background-color: #E4E4E4
+}
+
+.bigTable table tbody tr.odd td .tick {
+	background: url("../img/content/included_dark.gif") no-repeat scroll left top transparent;
+}
+
+.bigTable table tbody tr.odd td .cross {
+	background: url("../img/content/not_included.gif") no-repeat scroll left top transparent;
+}
+
+.bigTable table tbody tr th div.innerWrapper {
+    font-size: 100%;
+    line-height: 20px;
+    padding-right: 25px; 
+    position: relative;
+}
+
+.bigTable table tbody tr th span.help {
+    display: none;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.bigTable table tbody tr th span.help a {
+    background: url("../img/uk-content/icon_tooltip_table.gif") no-repeat scroll left top transparent;
+    display: block;
+    height: 19px;
+    width: 19px;
+}
+
+.bigTable table tbody tr.odd th span.help a {
+	background: url("../img/uk-content/icon_tooltip_table_odd.gif") no-repeat scroll left top transparent;
+}
+
+.bigTable table tbody tr th .helpText {
+    background:#f0f0f0;
+	right:-294px;
+	padding:10px;
+	position:absolute;
+	top:35px;
+	width:300px;
+	display:none;
+	z-index:300;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-moz-box-shadow:0 0 4px #999;
+	-webkit-box-shadow:0 0 4px #999;
+	box-shadow:0 0 4px #999;	
+}
+
+.bigTable table tbody tr th .helpText .topNotch {
+    position:absolute;
+	top:-5px;
+	display:block;
+	background:#f0f0f0;
+	width:10px;
+	height:10px;
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0.5);
+	-moz-box-shadow:-2px -2px 3px #ccc;
+	-webkit-box-shadow:-2px -2px 3px #ccc;
+	box-shadow:-2px -2px 3px #ccc;
+}
+
+.bigTable table tbody tr.check th div.innerWrapper {
+    font-size: 70%;
+    line-height: 20px;
+    padding-right: 20px; 
+    position: relative;
+}
+
+.bigTable table tbody tr.check th span.help {
+    display: none;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.bigTable table tbody tr.check th span.help a {
+    background: url("../img/content/icon_overlay_launch.gif") no-repeat scroll left top transparent;
+    display: block;
+    height: 19px;
+    width: 19px;
+}
+
+.bigTable table tbody tr.check th .helpText {
+    background:#f0f0f0;
+	right:-294px;
+	padding:10px;
+	position:absolute;
+	top:35px;
+	width:300px;
+	display:none;
+	z-index:300;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-moz-box-shadow:0 0 4px #999;
+	-webkit-box-shadow:0 0 4px #999;
+	box-shadow:0 0 4px #999;
+}
+
+.bigTable table tbody tr.check th .helpText .topNotch {
+    position:absolute;
+	top:-5px;
+	display:block;
+	background:#f0f0f0;
+	width:10px;
+	height:10px;
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0.5);
+	-moz-box-shadow:-2px -2px 3px #ccc;
+	-webkit-box-shadow:-2px -2px 3px #ccc;
+	box-shadow:-2px -2px 3px #ccc;
+}
+
+.bigTable table tbody tr.check th .helpText.last {
+	right: 0;
+}
+
+.bigTable table tbody tr.check th .helpText.last .topNotch {
+	right: 8px;
+}
+
+#grid .grid .bigTable .helpText p {
+    font-weight:normal;
+	width:280px;
+	padding:0 0 0 3px;
+	color:#4c4c4c;
+	font-size:100%;
+	line-height: 18px;
+}
+/** international features table - end **/
+
+
+/** Custom select **/
+#grid .grid .contactUsSelect .customSelectMenu {
+    position: relative;
+    z-index: 101;
+}
+
+#grid .grid .contactUsSelect ul {
+    background: url("../img/uk-content/contact-us-select-menu.gif") no-repeat scroll right bottom transparent;
+    display: none;
+    font-size: 100%;
+    left: 0;
+    padding: 6px 0 9px;
+    top: 45px;
+    z-index: 1000;
+}
+
+#grid .grid .contactUsSelect ul li {
+    background: url("../img/uk-content/contact-us-select-border.gif") no-repeat scroll left top transparent;
+    color: #000000;
+    cursor: pointer;
+    font-size: 125%;
+    line-height: 22px;
+    margin: 0 1px;
+    padding: 9px 17px 11px;
+}
+
+#grid .grid .contactUsSelect ul li span {
+    display: block;
+    line-height: 22px;
+}
+
+#grid .grid .contactUsSelect .valueRegion {
+    background: url("../img/uk-content/contact-us-select-value-closed.gif") no-repeat scroll left bottom #FFFFFF;
+    cursor: pointer;
+    font-size: 125%;
+    padding: 0 0 5px;
+    width: 420px;
+}
+
+.contactUsSelect .valueRegionInner {
+    background: url("../img/uk-content/contact-us-select-value-closed.gif") no-repeat scroll left top #FFFFFF;
+    padding: 19px 10px 7px 18px;
+}
+
+.contactUsSelect .open .valueRegionInner {
+    background: url("../img/uk-content/contact-us-select-value.gif") no-repeat scroll left top transparent;
+}
+
+.boxshadow #grid .grid .contactUsSelect .open ul {
+    box-shadow: 0 10px 10px #E2E2E2;
+}
+
+/** custom select end **/
+/***************************************************************************************************************/
+/** secure key troubleshooting **/
+#grid .grid .troubleshootingShowHide .sliderWrap {
+	color: #333333;	
+	padding: 20px 0 0 20px;
+	border-bottom: 1px solid #D8D7D4;
+}
+
+#grid .grid .troubleshootingShowHide .sliderHead {
+	position: relative;
+	height: 55px;		
+	font-weight: bold;
+}
+
+#grid .grid .troubleshootingShowHide .sliderHead h3 {
+	color: #333333;
+	line-height: 55px;
+	cursor: pointer;
+}
+
+#grid .grid .troubleshootingShowHide .sliderHead h3.two_lines {
+	line-height: 18px;
+    padding-top: 10px;
+}
+
+#grid .grid .troubleshootingShowHide .sliderHead.closed h3 {
+	padding-left: 30px;
+	background: url("../img/uk-content/open.gif") left 18px no-repeat;
+}
+
+#grid .grid .troubleshootingShowHide .sliderHead.opened h3 {
+	padding-left: 30px;
+	background: url("../img/uk-content/close.gif") left 18px no-repeat;
+}
+
+#grid .grid .troubleshootingShowHide .sliderHead img {
+	position: absolute;
+	right: 0;
+}
+
+#grid .grid .troubleshootingShowHide .sliderContent p {
+	padding: 10px;
+}
+
+#grid .grid .troubleshootingShowHide .sliderContent ul {	
+	padding-left: 10px;
+}
+
+#grid .grid .troubleshootingShowHide .sliderContent ul li {
+	margin-left: 15px;
+	list-style: circle;
+}
+/** secure key troubleshooting - end **/
+/***************************************************************************************************************/
+/** credit cards tooltip **/
+.helpDsi{
+	position: absolute; 
+	top: 6px; 
+	left: 90px;
+}
+
+helpDsi.help {
+    display: none;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+span.helpDsi a {
+    background: url("../img/uk-content/icon_tooltip_table.gif") no-repeat scroll left top transparent;
+    display: block;
+    height: 19px;
+    width: 19px;
+}
+
+.helpTextDsi {
+    background:#f0f0f0;
+	top: 34px;
+	left: 84px;
+	padding:10px;
+	position:absolute;
+	min-width:100px;
+	display:none;
+	z-index:300;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-moz-box-shadow:0 0 4px #999;
+	-webkit-box-shadow:0 0 4px #999;
+	box-shadow:0 0 4px #999;
+}
+
+.helpTextDsi .topNotchDsi {
+    position:absolute;
+	top:-5px;
+	display:block;
+	background:#f0f0f0;
+	width:10px;
+	height:10px;
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0.5);
+	-moz-box-shadow:-2px -2px 3px #ccc;
+	-webkit-box-shadow:-2px -2px 3px #ccc;
+	box-shadow:-2px -2px 3px #ccc;
+}
+
+.helpTextDsi.last {
+	right: 0;
+}
+
+.helpTextDsi.last .topNotchDsi {
+	right: 8px;
+}
+
+.helpTextDsi p {
+    font-weight:normal;
+	width:280px;
+	padding:0 0 0 3px;
+	color:#4c4c4c;
+	font-size:100%;
+	line-height: 18px;
+	text-align: left !important;
+	margin-top: 0px !important; 
+	padding-left: 0px !important;
+}
+
+/** credit cards tooltip - end **/
+/***************************************************************************************************************/
+/** compliments table **/
+.compliments {
+	padding-right: 10px;	
+}
+
+.compliments.right {
+	padding-left: 10px;	
+}
+
+.compliments td {
+	padding-top: 10px;
+	padding-bottom: 10px;	
+}
+
+.compliments td p {
+	line-height: 18px;
+}
+
+.compliments tbody tr.rows-separator {
+    background: url("../img/uk-content/dotted.gif") repeat-x scroll left top transparent;
+    height: 1px !important;
+}
+
+.compliments tbody tr.rows-separator td {
+    font-size: 1px;
+    height: 1px;
+    line-height: 1%;
+    padding: 0;
+}
+
+/** compliments table - end **/
+
+
+/** red number Security Centre - start **/
+.redNumberSecurity {
+	color:#FF0000;
+	font-size:125%;
+	margin: 0px 15px 35px 0px;
+	float:left
+}
+/** red number Security Centre - end **/
+/** Contact us custom drop down **/
+.contactUsRow {
+	display: none;	
+}
+
+.contactUsRow h4 {
+	display: none;
+}

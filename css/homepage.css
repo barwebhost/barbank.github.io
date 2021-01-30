@@ -1,0 +1,419 @@
+@charset "UTF-8";
+
+.homepage {
+	margin-top: -9px;
+}
+
+.heroBanners {
+	overflow: hidden;
+	width: 940px;
+	height: 400px;
+	position: relative;
+	display:none;
+}
+
+.heroBannersOuter {
+	position: relative;
+}
+
+.heroBanners.whiteText {
+	color: #fff!important;
+}
+
+
+.heroBanners > .heroBannersOuter > div.banner1TC, 
+.heroBanners > .heroBannersOuter > div.banner2, 
+.heroBanners > .heroBannersOuter > div.banner3, 
+.heroBanners > .heroBannersOuter > div.banner4 {
+	width: 940px;
+	height: 400px;
+	background-color: #fff;
+	position: absolute;
+}
+
+.heroBanners > .heroBannersOuter > div.banner1TC {
+	left: 0;
+}
+.heroBanners > .heroBannersOuter > div.banner1TC > .largeTCImage {
+	display:none;
+}
+.heroBanners > .heroBannersOuter > div.banner2 {
+	left: 940px;
+	background-repeat: no-repeat;
+}
+.heroBanners > .heroBannersOuter > div.banner3 {
+	left: 1880px;
+	/*background-image: url('../../../content/personal/homepage/banners/tea_currentaccount_940x400px_d100.jpg');
+	background-repeat: no-repeat;*/
+}
+.heroBanners > .heroBannersOuter > div.banner3 > .mboxDefault {
+	background-repeat: no-repeat;
+	width:100%;
+	height:100%;
+}
+.heroBanners > .heroBannersOuter > div.banner3 > .mboxDefault > .bannerContent {
+	position:absolute;
+	top:40px;
+	left:32px;
+	padding:10px 18px;
+	width: 430px;
+}
+#grid .heroBanners > .heroBannersOuter > div.banner3 > .mboxDefault > .bannerContent > p {
+	color: #000000;
+    font-size: 150%;
+    line-height: 30px;
+    padding: 0 0 10px;
+    margin-left:0;
+}
+
+.heroBanners > .heroBannersOuter > div.banner4 {
+	left: 2820px;
+	background-repeat: no-repeat;
+}
+
+.heroBanners .innerContent {
+	margin-top: 40px;
+	display: none;
+	position: relative;
+}
+
+.heroBanners .innerContent .greyBtn {
+	margin-left: 30px!important;
+	margin-top: 10px!important;
+}
+
+.heroBanners .innerContent > .leftArrow {
+ position: absolute;
+ left: 10px;
+ width: 50px;
+ top: 80px;
+ text-align: center;
+}
+
+.heroBanners .innerContent > .rightArrow {
+	position: absolute;
+	right: 0;
+	width: 50px;
+	top: 80px;
+	text-align: center;
+}
+
+.heroBanners .innerContent > .outCarousel {
+	position: absolute;
+	margin-left: 70px;
+}
+
+.heroBanners .innerContent > .outCarousel > .innerCarousel {
+	width: 800px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+
+.heroBanners .innerContent > .outCarousel > .innerCarousel > .theCarousel {
+	position: relative;
+}
+
+.heroBanners .innerContent > .outCarousel > .innerCarousel > .theCarousel > div {
+	position: absolute;
+}
+
+.heroBanners .innerContent > .outCarousel > .innerCarousel > .theCarousel > div > .carouselBox {
+	border: 1px solid #DEDEDE;
+	left: 20px;
+	padding: 1px 0 2px 5px;
+	position: absolute;
+	top: 90px;
+	z-index: 100;	
+	width: 210px;
+	background-color: #ffffff;
+}
+
+.heroBanners .innerContent > .outCarousel > .innerCarousel > .theCarousel > div > .carouselBox > p {
+	margin-left: 0;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+.heroBanners .innerContent > .outCarousel > .innerCarousel > .theCarousel > div > .carouselBox > p > a {
+	font-weight: bold!important;
+	background-image: url('../img/homepage/red_arrow.jpg');
+	background-position: right;
+	background-repeat: no-repeat;	
+	padding-right: 20px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.heroBanners .innerContent > .outCarousel > .innerCarousel > .theCarousel > div > .carouselBox > p > a:hover {
+	color: #DA1E25;
+	text-decoration: none;
+}
+
+.heroBanners .innerContent > .outCarousel > .innerCarousel > .theCarousel > div > .carouselBox > p > .carouselText {
+	display: none;
+	line-height: 15px;
+}
+
+.heroBanners h2.promo {
+	font-size: 190%!important;
+	margin-left: 30px;
+	margin-top: 36px;
+}
+
+.heroBanners p {
+	margin-left: 30px;
+}
+
+.heroBanners select {
+	margin-left: 30px;
+}
+
+.heroBanners ul.dropDown {
+	margin-left: 30px;
+	position: absolute; 
+  z-index: 10;
+}
+
+.heroBanners ul.dropDown li{
+	display: none;
+	font-size: 18px !important;
+	height: 20px;
+	padding: 10px;
+	padding: 12px 10px 11px 10px;
+	width: 480px;
+}
+
+
+.heroBanners ul.dropDown li.defaultDD {
+	display: block;
+	background-image: url('../img/homepage/dropdown_selected.gif'); 
+	background-position: right center;
+	background-repeat: none;
+}
+
+.heroBanners ul.dropDown li.item {
+	border-top: 1px solid #ccc;
+	background-image: url('../img/homepage/dropdown_mid.gif'); 
+	background-position: right center;
+	background-repeat: none;	
+}
+
+.heroBanners ul.dropDown li.last {
+	margin-top: -1px;
+	background-image: url('../img/homepage/dropdown_bottom.gif'); 
+	background-position: right center;
+	background-repeat: none;	
+}
+
+
+.heroBanners label {
+	margin-left: 30px;
+	font-size: 18px;
+	color: #4C4C4C;
+}
+
+.heroBanners input.mortgageAmount {
+	color: #666666!important;
+  font-size: 18px;
+  margin-left: 5px;
+  padding: 8px 8px 8px 30px;
+  width: 150px;
+	background-image: url('../img/homepage/pound_input.jpg'); 
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.heroBanners input.goButton {
+	padding: 8px 25px 8px 8px;
+	background-image: url('../img/homepage/go_button.jpg'); 
+	background-position: right center;
+	background-repeat: no-repeat;
+	color: #666666!important;
+  font-size: 18px;
+  margin-left: 5px;
+	cursor: pointer;
+}
+
+.heroBanners p.promo {
+	font-size: 115%!important;
+	margin-top: 18px;
+	line-height: 22px;
+}
+
+.heroBanners a.promo {
+	margin-left: 30px;
+	font-weight: bold;
+  font-size: 110% !important;
+}
+
+.expandCollapseArrow {
+ padding-right: 30px;
+ background-image: url('../img/homepage/button_downarrow.gif');
+ background-position: right;
+ background-repeat: no-repeat;
+ padding: 5px 40px 5px 0;
+ border-bottom: 1px dotted #666666;
+ border-top: 1px dotted #666666;
+ margin-bottom: 10px;
+ display: inline-block;
+}
+
+.heroButtons {
+	margin-top: -83px;
+	position: absolute;
+	display:none;
+}
+
+.heroButtons > .button1, 
+.heroButtons > .button2, 
+.heroButtons > .button3, 
+.heroButtons > .button4 {
+	width: 235px;
+	height: 84px;
+	background-image: url('../img/homepage/button_unselected_line.png');
+	background-repeat: no-repeat;
+	display: inline;
+	float:left;
+	text-align: center;
+} 
+
+.heroButtons .selected {
+	background-image: url('../img/homepage/button_selected.png');
+	background-repeat: no-repeat;
+}
+
+.heroButtons .noLine {
+	background-image: url('../img/homepage/button_unselected.png');
+	background-repeat: no-repeat;
+}
+
+.heroButtons a,
+.heroBanners a,
+.heroButtons a:active,
+.heroBanners a:active {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent; /* For some Androids */
+  background-color:transparent;
+}
+
+.heroButtons a {
+  color: #FFFFFF !important;
+	display: block;
+	padding-top: 30px;
+	font-weight: bold;
+	height: 54px;
+}
+
+.singleLine {
+	padding-top: 40px!important;
+}
+
+.sidekickBanners {
+	margin-top: 20px;
+}
+
+.sidekickBanners p,
+.sidekickBanners img {
+	padding-left: 18px;
+	color: #4C4C4C !important;
+}
+
+.sidekickBanners .header {
+	font-size: 120%!important;
+	margin-top: 0!important;
+}
+
+.sidekickBanners .strong {
+  font-size: 100% !important;
+  font-weight: bold;
+}
+
+.sidekickBanners p {
+	margin-top: 18px;
+	color: #4C4C4C !important;	
+}
+
+
+.sidekickBanners > .sbanner1, 
+.sidekickBanners > .sbanner2, 
+.sidekickBanners > .sbanner3, 
+.sidekickBanners > .sbanner4 {
+	width: 234px;
+	display: inline;
+	float: left;
+	margin-bottom: 30px;
+}
+
+.sidekickBanners > .sbanner1, 
+.sidekickBanners > .sbanner2, 
+.sidekickBanners > .sbanner3 {
+	border-right: 1px dotted #CCC;
+}
+
+
+.sidekickBanners ul {
+	padding-left: 20px;
+}
+.sidekickBanners li {
+	border-top: 1px dotted #666666;
+	font-weight: bold;
+	margin-right: 18px;
+	padding: 8px 0;
+}
+
+.sidekickBanners li.qlLast {
+	border-bottom: 1px dotted #666666;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+.hidden {
+	display: none;
+}
+
+.bannerControl {
+    background-color: #555555;
+		background-image: url('../img/homepage/bcbg.jpg');
+		background-repeat: no-repeat;
+      background-position: 15px 0px;	color: #FFFFFF;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 110px;
+		padding-left: 5px;
+    z-index: 20;
+}
+.bannerControlTwo {
+	display: none;
+}
+div.timerBar {
+	position: absolute;
+	left: 0;
+	background-color: #000;
+	height: 2px;
+}
+.pdfLink {
+	background: url("../img/uk-content/download.gif") no-repeat scroll right bottom transparent;
+	display: block;
+	line-height: 18px;
+	padding: 9px 60px 3px 0;
+}
+.legalDisc {
+	line-height: 18px;
+	font-size: 14px!important;
+	color: #000!important;
+}
+
+div.preload {
+	position: absolute;
+	left:-9999px;
+	top: -9999px;
+}
+div.preload img {
+	display:block;
+	width:1px;
+	height:1px;
+}
